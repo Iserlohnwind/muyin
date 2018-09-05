@@ -1,0 +1,11 @@
+<view class="index-container {{noRegister ? 'show' : ''}}">
+  <image src="../images/logo.jpg"/>
+
+  <button class='button' open-type="getUserInfo" bindgetuserinfo="goTijian"> 
+    孕期体检时间提醒
+  </button>
+  <button class='button blue' open-type="getUserInfo" bindgetuserinfo="goYimiao">
+    宝宝疫苗接种时间提醒
+  </button>
+</view>
+

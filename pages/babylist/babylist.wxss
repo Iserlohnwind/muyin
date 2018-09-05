@@ -1,0 +1,139 @@
+page {
+    font-size: 32rpx;
+    color: #999;
+}
+
+.small_button {
+    border: 1px solid #ddd;
+    line-height: 30rpx;
+    height: 30rpx;
+    width: 120rpx;
+    border-radius: 15rpx;
+    font-size: 24rpx;
+    margin: 0 auto;
+}
+
+.index-container {
+    display: flex;
+    flex-direction: column;
+    /* //align-items: center; */
+}
+.flex {
+    display: flex;
+    /* margin: 30rpx; */
+    border-bottom: 1px solid #ccc; 
+    height: 230rpx;
+    margin: 40rpx;
+    margin-bottom: 0;
+}
+
+.flex1 {
+    display: inline-block;
+    flex: 3;
+    text-align: center;
+    vertical-align: center;
+}
+
+.flex2 {
+    flex: 5;
+    /* margin-top: 20rpx; */
+}
+.switch {
+    font-size: 24rpx;
+}
+.switch_wrapper {
+    margin-top: 30rpx;
+}
+image {
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    width: 120rpx;
+    height: 120rpx;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.line {
+    height: 100rpx;
+    line-height: 100rpx;
+}
+
+.line:first-child {
+    margin-bottom: -20rpx;
+}
+
+.blue {
+    color: #2DC1FC !important;
+}
+
+.blue_im {
+    color: #0982FC !important;
+}
+
+.float {
+    float: right;
+    margin-right: 60rpx;
+}
+
+.small {
+    height: 70rpx;
+    line-height: 70rpx;
+}
+
+.margin {
+    border-bottom: 1px solid #ccc;
+    margin: 0rpx 40rpx 60rpx 40rpx;
+    min-height: 220rpx;
+    padding-top: 30rpx;
+    margin-bottom: 0;
+}
+
+.smaller {
+    min-height: 160rpx;
+    padding-top: 20rpx;
+    position: relative;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.poi {
+    position: relative;
+}
+.go {
+    position: absolute;
+    right: 80rpx;
+    top: 80rpx;
+    width: 30rpx;
+    width: 30rpx;
+    font-size: 30rpx;
+}
+
+.button {
+    margin-top: 30rpx;
+    width: 70%;
+    background: #F5776A;
+    height: 100rpx;
+    line-height: 100rpx;
+    border-radius: 50rpx;
+    text-align: center;
+    color: #fff;
+}
+
+/* .blue {
+    margin-top: 100rpx;
+    background: #2DC1FC;
+} */
+
+.small_title {
+    font-size: 28rpx;
+    color: #333;
+    display: inline-block;
+    margin-top: 20rpx;
+    margin-left: 40rpx;
+}
+
+.para {
+    height: 50rpx;
+    line-height: 50rpx;
+    margin-top: 20rpx;
+}

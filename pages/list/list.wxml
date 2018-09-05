@@ -1,0 +1,41 @@
+<view class='index-container'>
+  <view class='input-line flex'>
+    <view class='flex1'>
+      <view class='img-wrapper'>
+        <image src="{{userHeadPic}}"/>
+      </view>
+      <view class='small_button' bindtap="goRegister">修改预产期</view>
+    </view>
+    <view class='flex2'>
+      <view class='line'>
+        <text>距离小天使的降临还有：</text>
+        <text class="red">{{edcInterval}}</text>
+        <text>天</text>
+      </view>
+      <view class='line'>
+        <text>您当前的状态</text>
+        <text class="red float">{{pregnancyTime}}</text>
+      </view>
+    </view>
+  </view>
+  <view>
+    <text class="small_title">下次孕检时间：{{nextTime}}</text>
+    <view class='margin' wx:for="{{todoList}}" wx:for-item="item" wx:for-index="{{index}}" data-type="{{item.typeId}}" bindtap="goDetail">
+      <view class="para red">{{item.todoTitle}}</view>
+      <view class="para red">产检日期：{{item.todoDate}}</view>
+      <view class="para">重点：{{item.atttention}}</view>
+    </view>
+    <!-- <view class='margin'>
+      <view class='line small'>
+        <text>孕8周产检</text>
+      </view>
+      <view class='line small'>
+        <text>产检日期</text>
+      </view>
+      <view class='line small'>
+        <text>重点</text>
+      </view>
+    </view> -->
+  </view>
+</view>
+

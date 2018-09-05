@@ -1,0 +1,29 @@
+<view class='index-container'>
+  <view class='input-line flex'>
+    <view class='flex1'>
+      <image src="../images/01.png"/>
+      <view class='small_button'>修改预产期</view>
+    </view>
+    <view class='flex2'>
+      <view class='line'>
+        <text>大宝已经：</text>
+        <text class="blue">{{remainDays}}</text>
+        <text>天</text>
+      </view>
+      <view class='line'>
+        <text>二宝已经：</text>
+        <text class="blue float">{{passDays}}</text>
+      </view>
+    </view>
+  </view>
+  <view class='margin'>
+    <text class="small_title">何大宝下次疫苗接种时间：</text>
+    <view class="para blue">脊柱疫苗第一针</view>
+    <view class="para">接种日期：</view>
+  </view>
+  <view class='margin smaller'>
+    <view class="para blue">脊柱疫苗第一针</view>
+    <view class="para">接种日期：</view>
+  </view>
+</view>
+

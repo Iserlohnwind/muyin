@@ -1,0 +1,56 @@
+@import "../../wxParse/wxParse.wxss";
+page{  
+    background: #fff;  
+    color: #888;
+    font-size: 30rpx;
+}  
+.paragraph {
+    margin-top: 50rpx;
+    line-height: 50rpx;
+}
+.title {
+    font-size: 34rpx;
+    color: #F5776A;
+    height: 60rpx;
+    line-height: 60rpx;
+    vertical-align: center;
+}
+
+.title text {
+    height: 60rpx;
+    line-height: 60rpx;
+    display: inline-block;
+    position: relative;
+    top: -15rpx;
+    left: 10rpx;
+}
+
+.subtitle {
+    font-size: 32rpx;
+    color: #F5776A;
+}
+
+.content {
+    margin-top: 30rpx;
+    margin-left: 60rpx;
+    line-height: 50rpx;
+}
+
+.info {
+    width: 90%;
+    min-height: 300rpx;
+    line-height: 30rpx;
+    /* display: block;
+    white-space: pre-wrap; */
+}
+.info text {
+    display: block;
+    line-height: 50rpx;
+    /* white-space: pre-wrap; */
+}
+.block {
+    width: 20rpx;
+    height: 60rpx;
+    background: #F5776A;
+    display: inline-block;
+}

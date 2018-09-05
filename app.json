@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/alarm_list/alarm_list",
+    "pages/index/index",
+    "pages/register/register",
+    "pages/unauthorize/unauthorize",
+    "pages/list/list",
+    "pages/babylist/babylist",
+    "pages/angellist/angellist",
+    "pages/detail/detail",
+    "pages/shouquan/shouquan"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#2DC1FC",
+    "navigationBarTextStyle": "white"
+  }
+}

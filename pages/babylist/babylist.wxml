@@ -1,0 +1,39 @@
+<view class='index-container'>
+  <view class='input-line flex'>
+    <view class='flex1'>
+      <image src="{{avatarUrl}}"/>
+      <!-- <view class='small_button'>修改预产期</view> -->
+    </view>
+    <view class='flex2'>
+      <view class='line'>
+        <text>大宝出生已经：</text>
+        <text class="blue">{{babyList[0].babyBirth.birthNum}}</text>
+        <text>{{babyList[0].babyBirth.birthUnit}}</text>
+      </view>
+      <view class='line' wx:if="{{babyList[1]}}">
+        <text>二宝出生已经：</text>
+        <text class="blue">{{passDays}}</text>
+        <text>天</text>
+      </view>
+    </view>
+    <view class='flex1 switch_wrapper'>
+      <text class="switch">接种提醒：</text>
+      <switch color="#2DC1FC" checked bindchange="switch1Change"/>
+    </view>
+  </view>
+
+  <view wx:for="{{babyList}}" wx:for-index="{{index}}" wx:for-item="baby">
+    <text class="small_title blue_im">{{baby.babyName}}</text>
+     <text class="small_title">下次疫苗接种时间：</text>
+    <view class='margin smaller' wx:for="{{baby.todoItemList}}" wx:for-item="item" data-info="{{item}}" bindtap="goDetail"> 
+      <view class="para blue">{{item.todoTitle}}</view>
+      <view class="para">接种日期：{{item.todoDate}}</view>
+      <text class="go"> > </text>
+    </view>
+    <!-- <view class='margin smaller'>
+      <view class="para blue">脊柱疫苗第一针</view>
+      <view class="para">接种日期：</view>
+    </view> -->
+  </view>
+</view>
+

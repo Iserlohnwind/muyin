@@ -1,0 +1,21 @@
+
+<view class="container">
+  <view class="paragraph" wx:for="{{detailItemList}}" wx:for-item="item">
+    <view class="title">
+      <view class='block'></view>
+      <text>{{item.title}}</text>
+    </view>
+    <view class="content">
+      <view class="subtitle" wx:if="{{item.keyword}}">
+        <text>{{item.keyword}}</text>
+      </view>
+      <view class="info">
+        <text>
+          {{item.content}}
+        </text>
+      </view>
+    </view>
+  </view>
+  <import src="../../wxParse/wxParse.wxml"/>
+  <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>

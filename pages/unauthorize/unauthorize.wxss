@@ -1,0 +1,9 @@
+.container .msg{
+  margin: 20rpx
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

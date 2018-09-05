@@ -1,0 +1,7 @@
+
+<view class='container'>
+<image class='backgroudImage' src='../images/sad.png' mode='scaleToFill'>
+</image>
+<text class='msg'>oops，您不是堤旁树的加盟会员，无法观看教学视频</text>
+
+</view>
